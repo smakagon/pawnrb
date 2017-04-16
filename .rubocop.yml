@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+      - 'bin/**'
+      - 'vendor/**/*'
+Metrics/LineLength:
+  Max: 80
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'domain/spec/**/*'
+Documentation:
+  Enabled: false
